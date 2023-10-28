@@ -93,7 +93,7 @@ const displayNews = async function (page) {
       renderData(data, i);
     }
   } catch (error) {
-    console.error("Can't load API");
+    console.error("Requests from the browser are not allowed on the Developer plan, except from localhost");
   }
 };
 
