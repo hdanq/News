@@ -93,7 +93,7 @@ const displayNews = async function (page) {
       renderData(data, i);
     }
   } catch (error) {
-    console.error(error);
+    console.error("Can't load API");
   }
 };
 
