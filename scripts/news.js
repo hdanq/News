@@ -38,7 +38,7 @@ const renderData = function (data, positiondisplayNews) {
 // get API render news
 
 const displayNews = async function (page) {
-  const apiKey = "1f607f77ab1a4e209a64e112183833ce";
+  const apiKey = "66d507a78402477cb0846b80e38190fe";
 
   let url = `https://newsapi.org/v2/top-headlines?country=us&category=General&pageSize=10&page=${page}&apiKey=${apiKey}`;
 
